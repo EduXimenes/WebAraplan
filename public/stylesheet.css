@@ -1,0 +1,131 @@
+:root{
+    --cor--principal:#666666;
+    --cor--secundaria: #FFFF;
+}
+
+
+body{
+    background:ghostwhite;
+}
+
+.toolbar{
+    margin: 0 auto;
+    width: 100%;
+}
+.titulo-principal{
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+    display: inline-block;
+    font-family:'Courier New', Courier, monospace;
+    color:#164187;
+}
+
+#Navigation{
+    display: inline-block;
+    position:absolute;
+    margin: 10px;
+    top:45px;
+    right:20px;
+}
+#Navigation li {
+    display:inline;
+    margin: 10px;
+}
+
+#Navigation li a{
+    text-transform: uppercase;
+    color: #666666;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+#banner{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+}
+h2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 22px;
+    font-weight: bold;
+    color: #164187;
+    margin: 20px;
+}
+p{
+    font-family: 'Courier New', Courier, monospace;
+    color: #666666;
+}
+
+.texto-centralizado{
+    text-align: center;
+    margin: 10px;
+}
+
+.texto-base{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.Portfolio{
+    width: 80%;
+    margin: 10px;
+
+}
+.menuPortfolio{
+    display: inline;
+    position: relative;
+    font-size: 22px;
+    font-weight: 520;
+    margin-top: 30px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #666666;
+    text-decoration: none;
+}
+#navPort ul li a{
+    color: #666666;
+}
+#navPort ul li a:hover{
+    color: #164187;
+}
+
+
+.rodape{
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 30px;
+    padding: 10px;
+}
+footer{
+    margin-top: 100px;
+}
+.lista1{
+    font-style: italic;
+    font-size: 12px;
+    color: #666666;
+    margin-bottom: 10px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.listaA{
+    color:#666666;
+    font-weight: 400;   
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.imgPort{
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}

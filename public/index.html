@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Araplan</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="stylesheet.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="toolbar">
+                <h1 class="titulo-principal">Araplan Planejados</h1>
+                <nav id="Navigation">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#Portfolio">Portfólio</a></li>
+                        <li><a href="#Orçamento">Orçamento</a></li>
+                        <li><a href="#Contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <img id="banner" src="Banner Araplan.jpg">
+        </header>
+            <div class="texto-centralizado">
+                <h2> Sobre a Araplan Planejados</h2>
+                <p class="texto-base"><strong>Araplan</strong> é uma empresa de móveis planejados localizada em Arapongas - PR que foi fundada em 2015. </p>
+                <p class="texto-base">Nosssa principal missão é: <strong>"Proporcionar satisfação do cliente com produtos de alta qualidade e ótimo atendimento."</strong></p>
+            </div>
+            <div id="Portfolio"  class="texto-centralizado">
+                <h2>Portfólio</h2>
+                <nav id="navPort">
+                    <ul class="ulPort">
+                        <li><a href="cozinha.html" class="menuPortfolio">Cozinha</a></li>
+                        <li><a href="dormitorio.html" class="menuPortfolio">Dormitório</a></li>
+                        <li><a href="lavanderia.html" class="menuPortfolio">Lavanderia</a></li>
+                        <li><a href="banheiro.html" class="menuPortfolio">Banheiro</a></li>
+                        <li><a href="closet.html" class="menuPortfolio">Closet</a></li>
+                        <li><a href="living.html" class="menuPortfolio">Living</a></li>
+                        <li><a href="corporativo.html" class="menuPortfolio">Corporativo</a></li>
+                        <li><a href="gourmet.html" class="menuPortfolio">Gourmet</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="Orçamento" class="texto-centralizado" >
+                <h2>Orçamento</h2>
+                <p class="texto-base"> Faça seu Orçamento:</p>
+                    <form action="enviar.php" method="POST">
+                        <div class="campos is-centered">
+                            <div class="field">
+                                <label class="label">Nome *</label>
+                                <div class="control">
+                                    <input name="nome" class="input" type="text" placeholder="Seu Nome" maxlength="200">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">Email</label>
+                                <div class="control">
+                                    <input name="email" class="input" type="text" placeholder="Seu E-mail">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label class="label">Telefone *</label>
+                                <div class="control">
+                                    <input name="telefone" class="input" type="text" placeholder="Seu Telefone">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+            </div>
+        <footer id="Contato" class="rodape">
+            <h3></h3>
+            <ul>
+                <li class="lista1">
+                    <a class= "listaA" href="mailto: araplanplanejados@gmail.com">E-mail: araplanplanejados@gmail.com</a> 
+                </li>
+                <li class="lista1">
+                    <a class= "listaA" href="tel: +554399761803">Telefone: +55 (43) 99976-1803</a>
+                </li>
+                <li class="lista1">
+                    <a class= "listaA" href="https://goo.gl/maps/HzkCc1KxbG198Tj47" target="_blank">Endereço: Rua Pica-Pau 2401, Arapongas-Paraná</a>
+                </li>
+            </ul>
+            
+        </footer>
+
+    </body>
